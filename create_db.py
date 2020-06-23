@@ -58,7 +58,7 @@ def create_rel(tx):
                 direct_discount: toFloat(row.direct_discount_per_unit),
                 quantity_discount: toFloat(row.quantity_discount_per_unit),
                 bundle_discount: toFloat(row.bundle_discount_per_unit),
-                coupon_discount: toFloat(row.direct_discount_per_unit),
+                coupon_discount: toFloat(row.coupon_discount_per_unit),
                 gift: toInteger(row.gift_item)
             }]->(p)
         ", {batchSize: 10000}) 

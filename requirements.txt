@@ -1,2 +1,6 @@
 neo4j
 click
+py2neo
+networkx
+matplotlib
+pandas
