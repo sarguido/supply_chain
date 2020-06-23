@@ -1,2 +1,5 @@
 /sc
 .idea/
+notebooks/.ipynb_checkpoints
+sarah.cypher
+.DS_STORE
